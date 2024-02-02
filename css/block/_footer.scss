@@ -1,0 +1,117 @@
+.footer_content {
+  display: flex;
+}
+
+  .footer_content__fon {
+    background-image:url(../img/fon\ \(1\).png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover ;
+  }
+
+  .footer_content__podlojca {
+    background: rgba(244, 244, 244, 0.70);
+    height: 448px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+.footer_content__left_img {
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  gap: 30px;
+}
+
+.footer_content_left_title {
+justify-content: center;
+ }
+
+.footer_content_left_text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #222224;
+font-size: 20px;
+font-style: italic;
+align-items: center;
+text-align: center;
+}
+
+  .footer_content__right {
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+      }
+
+
+  .footer_content_right_h2 {
+    color: #222224;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 167.2%;
+  }
+
+  .footer_content_right_title {
+    color: #222224;
+font-size: 18px;
+line-height: 250.2%;
+  }
+
+  .input_form {
+    display: flex;
+    line-height: 167.2%;
+  }
+
+  .input {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: #E1E1E1;
+  border-color:  #E1E1E1;;
+  width: 256px;
+height: 36px;
+padding-left: 22px;
+  }
+
+  .input_btn {
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+background:  #F16D7F;
+color: rgba(255, 255, 255, 1);
+border-color: #F16D7F;
+width: 85px;
+height: 36px;
+  }
+
+  .footer_two {
+    height: 79px;
+    background-color:rgba(34, 34, 36, 1) ;
+    display: flex;
+    justify-content: space-between ;
+  }
+
+  .footer_two_box_left {
+    display: flex;
+    color: #FBFBFB;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer_nav {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .footer_nav__btn:hover {
+    background: $colorSelectSite;
+    fill: rgba(255, 255, 255, 1);
+  }
