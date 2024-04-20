@@ -7,11 +7,13 @@
 	margin: 0;
 	box-sizing: border-box;
 	text-decoration: none;
+
 }
 
 body {
 	scroll-behavior: smooth;
 	text-rendering: optimizeSpeed;
+  overflow-x: hidden
 }
 
 img {
@@ -116,12 +118,12 @@ height: 260px;
   align-items: center;
   flex-direction: column;
   }
-  
+
   .category_text {
   color: #FFF;
   font-size: 16px;
   }
-  
+
   .category_title {
   color: $colorSelectSite;
   font-size: 24px;
@@ -130,7 +132,7 @@ height: 260px;
 
   .bottom_section {
     }
-    
+
     .bottom_section_title {
       text-align: center;
       margin-top: 96px;

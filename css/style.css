@@ -9,6 +9,7 @@
 body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
+  overflow-x: hidden;
 }
 
 img {
